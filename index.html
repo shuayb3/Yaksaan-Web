@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaksaan WEB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        .portfolio-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 15px;
+            width: 300px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item h3 {
+            color: #0073e6;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Ahmad Shuayb Yaksaan - Web Developer
+    </header>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am a web developer specializing in HTML, CSS, and JavaScript. Passionate about building responsive and interactive websites.</p>
+    </section>
+    
+    <section>
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>A responsive landing page for a business.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>An interactive web application for task management.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3</h3>
+                <p>A personal blog site with a modern design.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Contact</h2>
+        <p>Email: shuayb695@gmail.com</p>
+        <p>LinkedIn: <a href="#">shuayb1</a></p>
+        <p>GitHub: <a href="#">shuayb3.github.io/portfolio</a></p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Ahmad Shuayb Yaksaan. All Rights Reserved.
+    </footer>
+</body>
+</html>
